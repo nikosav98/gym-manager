@@ -1,0 +1,210 @@
+/* Modern Dark Theme for Gym Manager
+   - Dark gray background with sharp edges
+   - Light blue sea accents
+   - White text
+*/
+
+/* Global Styles */
+* {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: #2D2D30;
+    border: none;
+}
+
+/* Main Window */
+QMainWindow {
+    background-color: #1E1E1E;
+}
+
+QWidget {
+    background-color: #2D2D30;
+}
+
+/* Frames with borders */
+QFrame {
+    border: 1px solid #3F3F46;
+    border-radius: 2px;
+    background-color: #252526;
+}
+
+/* Labels */
+QLabel {
+    color: #E6E6E6;
+    background-color: transparent;
+    font-weight: normal;
+    padding: 2px;
+}
+
+QLabel[title="true"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Input Fields */
+QLineEdit, QDateEdit, QComboBox, QTextEdit {
+    background-color: #333337;
+    border: 1px solid #3F3F46;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+
+QLineEdit:focus, QDateEdit:focus, QComboBox:focus, QTextEdit:focus {
+    border: 1px solid #007ACC;
+}
+
+QLineEdit::placeholder {
+    color: #999999;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #0099E5;
+}
+
+QPushButton:pressed {
+    background-color: #005A9E;
+}
+
+/* Secondary buttons */
+QPushButton[secondary="true"] {
+    background-color: #3F3F46;
+    color: white;
+}
+
+QPushButton[secondary="true"]:hover {
+    background-color: #4E4E55;
+}
+
+/* Tables */
+QTableWidget {
+    background-color: #252526;
+    alternate-background-color: #2D2D30;
+    gridline-color: #3F3F46;
+    border: 1px solid #3F3F46;
+    border-radius: 2px;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #007ACC;
+}
+
+QHeaderView::section {
+    background-color: #333337;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-right: 1px solid #3F3F46;
+    border-bottom: 1px solid #3F3F46;
+}
+
+/* Scroll Bars */
+QScrollBar:vertical {
+    background-color: #2D2D30;
+    width: 12px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #3F3F46;
+    min-height: 20px;
+    border-radius: 2px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #007ACC;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ComboBox Dropdown */
+QComboBox {
+    background-color: #333337;
+    border: 1px solid #3F3F46;
+    border-radius: 2px;
+    padding: 5px;
+    min-height: 30px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #3F3F46;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #333337;
+    border: 1px solid #3F3F46;
+    selection-background-color: #007ACC;
+}
+
+/* Menu Bar */
+QMenuBar {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 5px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #007ACC;
+}
+
+QMenu {
+    background-color: #1E1E1E;
+    border: 1px solid #3F3F46;
+}
+
+QMenu::item {
+    padding: 5px 30px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #007ACC;
+}
+
+/* Toolbar */
+QToolBar {
+    background-color: #2D2D30;
+    border: 1px solid #3F3F46;
+    padding: 2px;
+}
+
+/* Status active/inactive */
+QLabel[status="active"] {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+QLabel[status="inactive"] {
+    color: #E53935;
+    font-weight: bold;
+}
+
+/* Form layouts */
+QFormLayout {
+    spacing: 10px;
+}
