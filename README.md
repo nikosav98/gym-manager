@@ -1,12 +1,11 @@
 # Gym Management System
-
+## The app is incomplete. I will find the time to refine it using AI-tools, up to a satisfactory degree in the near future
 A comprehensive gym management application built as a self-learning project to explore MVC architecture and database design principles.
 
-![Gym Management System]
 
 ## Project Overview
 
-This application provides a complete solution for gym owners to manage their members, track attendance, and handle membership details. It features a modern, responsive UI with right-to-left (RTL) support for Hebrew language.
+This application provides a (somewhat) complete solution for gym owners to manage their members, track attendance, and handle membership details. It features a modern, responsive UI with right-to-left (RTL) support for Hebrew language.
 
 ## Features
 
